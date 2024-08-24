@@ -163,29 +163,33 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Software Engineer - Global Logic",
+    desc: `<div>
+            - Involved in developing a high-traffic, web-based Lab Automation Platform (SAAS) to assist researchers along the globe.
+            <br />
+            - Developed a custom virtualized table in react capable of rendering over 1 million cells significantly hindering large dataset analysis and
+              enabling researchers to efficiently view optimization results.
+            <br />
+            - Implemented lazy loading and asynchronous chunk loading to handle large amounts of data in column selection filter to improve loading
+              times.
+            <br />
+            - Developed user microservice using Spring Boot and custom SPIs for keycloak.
+           </div>`,
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Frontend Developer - Konnectnxt",
+    desc: `<div>
+            - Led the development of KonnectNxt dashboard (a SaaS platform to reduce time to hire by more than 80%).
+            <br />
+            -  Migrated codebase from Javascript + CSS to Typescript + Mui.
+            <br />
+            - Created a landing page from figma design using NextJs, Typescript, and TailwindCss.
+            <br />
+            -  Created conv-flow, a chatbot for easy enrollment.
+           </div>`,
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
